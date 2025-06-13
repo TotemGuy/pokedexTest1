@@ -4,7 +4,7 @@ const display = document.querySelector("#pokemonDisplay")
 
 function buscarPokemon(){
     let pokemon = input.value
-    fetch("http://pokeapi.co/api/v2/pokemon/" + pokemon).then(function(res){
+    fetch("https://pokeapi.co/api/v2/pokemon/" + pokemon).then(function(res){
         return res.json()
     }).then(function(data){
     console.log(data)
