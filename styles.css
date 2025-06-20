@@ -1,0 +1,38 @@
+*{
+    overflow-x: hidden;
+}
+
+th{
+    width: 15vw;
+    height: 25vh;
+    background-color: rgb(201, 201, 201);
+    border-width: .5vw;
+    border-style: solid;
+    border-radius: 15%;
+    margin-left: 2vw;
+    border-color: white;
+}
+
+table{
+    margin: auto;
+}
+
+button{
+    margin: auto;
+}
+
+.botonAnterior{
+    width: 5vw;
+    height: 5vw;
+    float:left;
+    font-size: 4vw;
+    margin-top:50vh;
+}
+
+.botonSiguiente{
+    width: 5vw;
+    height: 5vw;
+    float:right;
+    font-size: 4vw;
+    margin-top:50vh;
+}
